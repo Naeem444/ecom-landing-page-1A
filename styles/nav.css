@@ -1,0 +1,48 @@
+body {
+  margin: 0%;
+  padding: 0%;
+}
+nav {
+  display: flex;
+}
+
+.logo img {
+  position: absolute;
+  width: 8%;
+  top: 0;
+  left: 0%;
+  margin-top: 20px;
+  margin-left: 5%;
+}
+
+nav > ul {
+  display: flex;
+
+  margin: 35px 40px;
+
+  position: absolute;
+  top: 0;
+  right: 0%;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 8px 26px;
+  text-decoration: none;
+}
+nav ul li a {
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+  font-weight: 550;
+  color: black;
+}
+
+nav ul li:hover {
+  padding: 8px 26px;
+  border-radius: 22px;
+
+  background: linear-gradient(to right, #0099cc 0%, #99ccff 100%);
+}
+
+/* write media query for mobile and tablet */
