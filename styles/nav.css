@@ -46,3 +46,15 @@ nav ul li:hover {
 }
 
 /* write media query for mobile and tablet */
+
+@media screen and (max-width: 768px) {
+  body,html {
+    display: grid;
+  grid-template-columns: 1fr;
+  
+  margin: 0 ;
+  padding:0;
+  
+  }
+
+}

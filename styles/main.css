@@ -222,6 +222,9 @@ hr:before {
   justify-content: left;
   align-items: center;
 }
+.ratings i{
+  color: #f80;
+}
 .ratings p {
   padding: 0 10px;
 }
