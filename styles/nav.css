@@ -27,7 +27,7 @@ nav > ul {
 
 nav ul li {
   list-style: none;
-  padding: 8px 26px;
+  padding: 5px 20px;
   text-decoration: none;
 }
 nav ul li a {
@@ -35,11 +35,11 @@ nav ul li a {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
   font-weight: 550;
-  color: black;
+  color: #262626;
 }
 
 nav ul li:hover {
-  padding: 8px 26px;
+  padding: 5px 20px;
   border-radius: 22px;
 
   background: linear-gradient(to right, #0099cc 0%, #99ccff 100%);
